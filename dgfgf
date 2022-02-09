@@ -1,0 +1,13 @@
+#include <stdio.h>
+void recur(int n)
+{
+    printf ("%d\n", n);
+    if (n > 1)
+        recur(n - 1);
+}
+
+int main (void) 
+{
+    recur(10);
+    return 0;
+}
